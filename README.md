@@ -1,4 +1,6 @@
-i've built this project as part of my full-stack-web-development studies, and to practice:
+this project presents an example for a promotional website 
+that can generally be used for hotels, motels, resorts and guest houses.
+in this project, iv'e practiced:
 
 - HTML5
 - CSS3
