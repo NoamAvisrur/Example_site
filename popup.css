@@ -1,0 +1,95 @@
+.popup_back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.91);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+}
+.popup_close{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border-radius: 50%;
+    opacity: 0.5;
+    border: none;
+    font-size: 2rem;
+}
+.popup_header, .popup_footer{
+    font-family: font;
+    width: 90%;
+    background-color: #eee;
+    font-size: 4rem;
+    text-align: center; 
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.popup_footer{
+    display: block;
+    border: none;
+    font-size: 2rem;
+}
+.popup_footer:hover{
+    border: 1px solid #333;
+    font-weight: bold;
+}
+.popup_offer1, .popup_offer2, .popup_offer3{
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border: 2px solid #333;
+    border-radius: 7px;
+    display: flex;
+}
+.popup_place, .popup_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: font;
+}
+.popup_place{
+    width: 75%;
+    border-right: 1px solid #333;
+    font-size: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.popup_place span{
+    background-color: #eee;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.7);
+    width: 100%;
+    height: 100%;
+    padding-top: 7%;
+}
+.popup_offer1 .popup_place{
+    background-image: url(img/amsterdam.jpg);
+} 
+.popup_offer2 .popup_place{
+    background-image: url(img/barcelona.jpg);
+} 
+.popup_offer3 .popup_place{
+    background-image: url(img/rome.jpg);
+} 
+.popup_price{
+    width: 25%;
+    font-size: 3rem;
+    background-color: #eee;
+}
+.popup_close:hover {
+    opacity: 1;
+}

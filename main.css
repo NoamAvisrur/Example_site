@@ -1,3 +1,9 @@
+.hide_scroll{
+    overflow: hidden;
+}
+.undisplay{
+    display: none;
+}
 .fixed_header {
     width: 100%;
     background-color: #454747;
@@ -15,7 +21,7 @@
 
 @font-face {
     font-family: font;
-    src: url(Rampung.ttf);
+    src: url(font/Rampung.ttf);
 } 
 header {
     margin-top: 80px;
@@ -296,6 +302,16 @@ header {
 }
 .nav_spacer{
     margin-top: 0px;
+}
+.popup{
+    height: 500px;
+    width: 90%;
+}
+.popup_price {
+    font-size: 2rem;
+}
+.popup_place span{
+    font-size: 3rem;
 }}
 
 /* Small Devices, Tablets */

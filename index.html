@@ -1,226 +1,285 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>bootstrap_practise</title>
-        <link rel="shortcut icon" href="img/W-Hotels-logo1.png"/>
-        <meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <title>bootstrap_practise</title>
+    <link rel="shortcut icon" href="img/W-Hotels-logo1.png" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <div class="fixed_header">
-        <img class="main_logo " src="img/W-Hotels-logo1.png" alt="main logo"/>
-    </div>
-<div class="container-fluid">
-    	 <a href=""><img class="logo_small" src="img/W-Hotels-logo-logotype-1024x768.png" alt="logo"></a>
-    <div class="row">
-        <header>
-	    <a href=""><img class="logo" src="img/W-Hotels-logo-logotype-1024x768.png"
-	     alt="logo"></a>
-	    <a class="nav_link" href="">Home</a>
-	        <div class="nav_spacer"></div>
-		    <a class="nav_link" href="">Rooms</a>
-		    <div class="nav_spacer"></div>
-			 <a class="nav_link" href="">dining</a>
-			 <div class="nav_spacer"></div>
-			 <a class="nav_link" href="">Tours</a>
-			 <div class="nav_spacer"></div>
-			 <a class="nav_link" href="">Spa</a>
-			 <div class="nav_spacer"></div>
-			 <a class="nav_link" href="">Contect</a>
-		</header>
-    </div> <!-- /div row -->
-    <div class="row">
-        <div class="nav_under"></div>
-    </div> <!-- /div row -->
-    <div class="row">
-        <div class="main_res">
-                <img class="middle" src="img/Soba Slovenija 3.jpg" alt=""/>
-                <img class="bottom" src="img/Soba Slovenija 3.jpg" alt=""/>
-                <img class="top" src="img/hotel-palcát-20.jpg" alt=""/>
-            <div class="res col-xs-11 col-sm-6 col-md-4">
-                <label class="label">----- Arrival Dates -----</label>
-                    <input class="input" type="date">
-                <label class="label">----- Departure Date -----</label>
-                    <input class="input" type="date">
-                <label class="label">----- choose a city -----</label>
-                    <input class="input" list="browsers" name="browser">
-  			 <datalist id="browsers">
-    			     <option value="amsterdam">
-    			     <option value="barcelona">
-    			     <option value="new-york">
-    			     <option value="rome">
-    			     <option value="tel-aviv">
-  			 </datalist>
-		 <label class="label">----- check rates -----</label>
-		     <input class="input" type="submit" value="Go">
-            </div>
+<div class="popup_back undisplay">
+    <button class="popup_close">&#10006</button>
+    <div class="popup">
+        <div class="popup_header">Spaciel Offers</div>
+        <div class="popup_offer1">
+            <div class="popup_place"><span>Amstredam</span></div>
+            <div class="popup_price">12% off</div>
         </div>
-    </div><!-- /div row -->
-    <div class="row">
-	<span class="first_div_line col-xs-12 col-sm-12 col-md-12"></span>
-    </div> <!-- /div row -->
-    <div class="row">
-        <div class="our_story col-xs-12 col-sm-10 col-md-6">
-	    <img class="story_logo" src="img/W-Hotels-logo1.png" alt="logo" />
-	    <h1>our story</h1>
-	    <p>A truly singular, charming and often extravagant experience of the destination that leaves guests with unforgettable memories.</p>
-	    <p>w hotels creates an once-in-a-lifetime experience for guests to celebrate a 'Memorable Moment.
-	       Start your day with a lovely breakfast with a fresh juice or coffee. The thINK Package includes 2 bikes
-	       with a special map that enables you to have an INK-redible biking experience.</p>
-	    <p>Complementary is an INK Polaroid camera, to forever capture your 'Memorable Moments' and some exclusive sights of each city you visit.</p>
-	    <img class="story_logo" src="img/W-Hotels-logo1.png" alt="logo" />
-	</div>
-    </div> <!-- /div row -->
-    <div class="row">
-	<span class="div_line col-xs-12 col-sm-12 col-md-12"></span>
-    </div> <!-- /div row -->
-    <div class="row">
-                <div class="section1">
-			<div class="sec col-xs-6 col-sm-3 col-md-3">
-				 <a  href=""><img class="sec_img" src="img/spa.jpg" alt="spa" />
-				<p>Spa</p></a>				
-			</div>
-			<div class="sec  col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/tours.jpg" alt="tours" />
-				<p>Tours</p></a>
-			</div>
-			<div class="sec  col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/dining.jpg" alt="dining" />
-				<p>dining</p></a>				
-			</div>
-			<div class="sec  col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/rooms.jpg" alt="rooms" />
-				<p>Rooms</p></a>				
-			</div>
-			<div class="sec col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/events.jpg" alt="events" />
-				<p>events</p></a>				
-			</div>
-			<div class="sec col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/facilities.jpg" alt="facilities" />
-				 <p>facilities</p></a>
-			</div>
-			<div class="sec col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/bar.jpg" alt="bar" />
-				<p>bar</p></a>				
-			</div>
-			<div class="sec col-xs-6 col-sm-3 col-md-3">
-				 <a href=""><img class="sec_img" src="img/gallery.jpg" alt="photos" />
-				<p>gallery</p></a>				
-			</div>
-		</div>
-        </div><!-- /div row -->
-    <div class="row">
-	<span class="div_line col-xs-12 col-sm-12 col-md-12"></span>
-    </div> <!-- /div row -->
-		<h2>an unforgettable getaways</h2>
-    <div class="row">
-        <div class="section2 col-xs-12 col-sm-12 col-md-12">
-            <div class="sec1">
-                <p>_____ amsterdam _____</p>
-                <p>Amsterdam is the capital of the Netherlands. With more than one million inhabitants in its urban area,
-                   it is the country's largest city and its financial, cultural, and creative centre.</p>
-                <p>Amsterdam derives its name from the city's origin as "Dam" of river Amstel. In the past,
-                   the name was "Amstelredamme" which later changed as "Amsterdam".
-                    Amsterdam is one of the most popular destinations in Europe, attracting over 7 million international travellers annually.</p>
-                <a class="sec1_link" href="">click here to learn more</a>
-            </div>
-            <div class="sec2">
-                <img class="sec2_img" src="img/amsterdam.jpg" alt="amsterdam" />
-            </div>
+        <div class="popup_offer2">
+            <div class="popup_place"><span>Barcelona</span></div>
+            <div class="popup_price">10% off</div>
         </div>
-    </div> <!-- /div row -->
-    <div class="row">
-         <div class="section2 col-xs-12 col-sm-12 col-md-12">
-              <div class="sec1">
-                  <p>_____ barcelona _____</p>
-                  <p>Barcelona is the capital city of the autonomous community of Catalonia in the Kingdom of Spain,
-                     as well as the country's second most populous municipality, with a population of 1.6 million within city limits.</p>
-                  <p> Its urban area extends beyond the administrative city limits with a population of around 4.7 million people,
-                      being the sixth-most populous urban area in the European Union after Paris, London, Madrid, the Ruhr area and Milan.</p>
-                  <a class="sec1_link" href="">click here to learn more</a>
-              </div>
-              <div class="sec2">
-                  <img class="sec2_img" src="img/barcelona.jpg" alt="barcelona" />
-              </div>
-          </div>
-    </div> <!-- /div row -->
-    <div class="row">
-        <div class="section2 col-xs-12 col-sm-12 col-md-12">
-            <div class="sec1">
-                 <p>_____ new-york _____</p>
-                 <p>New York is a state in the northeastern United States, and is the 27th-most extensive, fourth-most populous, and seventh-most densely populated U.S. state.</p>
-                 <p>New York is bordered by New Jersey and Pennsylvania to the south and Connecticut, Massachusetts, and Vermont to the east. The state has a maritime border in the Atlantic Ocean with Rhode Island, east of Long Island.</p>
-                 <a class="sec1_link" href="">click here to learn more</a>
-            </div>
-	    <div class="sec2">
-	         <img class="sec2_img" src="img/newyork.jpg" alt="new-york" />
-	    </div>
+        <div class="popup_offer3">
+            <div class="popup_place"><span>Rome</span></div>
+            <div class="popup_price">15% off</div>
         </div>
-    </div> <!-- /div row -->
-    <div class="row">
-        <div class="section2 col-xs-12 col-sm-12 col-md-12">
-	    <div class="sec1">
-	        <p>_____ rome _____</p>
-		<p>Rome is a city and special comune (named Roma Capitale) in Italy. Rome is the capital of Italy and of the Lazio region.</p>
-		<p>With 2.9 million residents in 1,285, it is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits. The Metropolitan City of Rome has a population of 4.3 million residents.</p>
-		<a class="sec1_link" href="">click here to learn more</a>
-	   </div>
-	   <div class="sec2">
-		<img class="sec2_img" src="img/rome.jpg" alt="rome" />
-	   </div>
-	</div>
-    </div> <!-- /div row -->
-    <div class="row">
-	 <div class="section2 col-xs-12 col-sm-12 col-md-12">
-	     <div class="sec1">
-		 <p>_____ tel-aviv _____</p>
-		 <p>is a major city in Israel, located on the country's Mediterranean coastline. It is known to be the financial center and the technology hub of Israel, with a population of 432,892, making it Israel's second largest city.
-		 </p>
-		 <p>Tel Aviv is also a focal point in the high-tech concentration known as the "Silicon Wadi". Tel Aviv is governed by the Tel Aviv-Yafo Municipality, headed by Ron Huldai, and is home to many foreign embassies.</p>
-		 <a class="sec1_link" href="">click here to learn more</a>
-	     </div>
-	     <div class="sec2">
-		 <img class="sec2_img" src="img/telaviv.jpg" alt="tel aviv" />
-	     </div>
-	 </div>
-    </div> <!-- /div row -->
-    <div class="row">
-	<span class="div_line col-xs-12 col-sm-12 col-md-12"></span>
-    </div> <!-- /div row -->
-    <div class="row">
-	 <div class="video col-xs-12 col-sm-6 col-md-6">
-	     <iframe class="w_vid" width="300" height="300" src="https://www.youtube.com/embed/P1sNrszsCw0" frameborder="0" allowfullscreen></iframe>
-	     <p>Behind the Brand</p>				
-	 </div>
-	<div class="map col-xs-12 col-sm-6 col-md-6">
-	     <iframe class="w_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11977.060095547742!2d2.1903244!3d41.3683264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59e80c780f7e2f0b!2sW+Barcelona!5e0!3m2!1siw!2sil!4v1482923718525" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-	     <p>we're here</p>
-	</div>
-    </div><!-- /div row -->
-</div> <!-- /div container-fluid" -->
-<div class="footer">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="main_footer col-xs-12 col-sm-12 col-md-12">
-	        <div class="footer_links">
-		    <a class="footer_link" href="">Home</a>|
-		    <a class="footer_link" href="">Rooms</a>|
-		    <a class="footer_link" href="">dining</a>|
-		    <a class="footer_link" href="">Tours</a>|
-		    <a class="footer_link" href="">Spa</a>|
-		    <a class="footer_link" href="">Contect</a>
-	        </div>
-		 <div class="footer_glyphicon">
-                     <p><span class="glyphicon glyphicon-earphone"><span class="phone">982-0020-010</span></span></p>
-                     <p><span class="glyphicon glyphicon-envelope"></span> zip code: 030059</p> 
-                     <p><span class="glyphicon glyphicon-flag"></span> Barcelona, Placa Rosa dels Vents, Spain</p>  
-	        </div>	
-	     </div>
-        </div>
+        <button class="popup_footer">Click here for more Offers</button>
     </div>
 </div>
+    <div class="fixed_header">
+        <img class="main_logo " src="img/W-Hotels-logo1.png" alt="main logo" />
+    </div>
+    <div class="container-fluid">
+        <a href=""><img class="logo_small" src="img/W-Hotels-logo-logotype-1024x768.png" alt="logo">
+        </a>
+        <div class="row">
+            <header>
+                <a href=""><img class="logo" src="img/W-Hotels-logo-logotype-1024x768.png" alt="logo">
+                </a>
+                <a class="nav_link" href="">Home</a>
+                <div class="nav_spacer"></div>
+                <a class="nav_link" href="">Rooms</a>
+                <div class="nav_spacer"></div>
+                <a class="nav_link" href="">dining</a>
+                <div class="nav_spacer"></div>
+                <a class="nav_link" href="">Tours</a>
+                <div class="nav_spacer"></div>
+                <a class="nav_link" href="">Spa</a>
+                <div class="nav_spacer"></div>
+                <a class="nav_link" href="">Contect</a>
+            </header>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="nav_under"></div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="main_res">
+                <img class="middle" src="img/Soba Slovenija 3.jpg" alt="" />
+                <img class="bottom" src="img/Soba Slovenija 3.jpg" alt="" />
+                <img class="top" src="img/hotel.jpg" alt="" />
+                <div class="res col-xs-11 col-sm-6 col-md-4">
+                    <label class="label">----- Arrival Dates -----</label>
+                    <input class="input" type="date">
+                    <label class="label">----- Departure Date -----</label>
+                    <input class="input" type="date">
+                    <label class="label">----- choose a city -----</label>
+                    <input class="input" list="browsers" name="browser">
+                    <datalist id="browsers">
+                        <option value="Amsterdam">
+                        <option value="Barcelona">
+                        <option value="New-york">
+                        <option value="Rome">
+                        <option value="Tel-aviv">
+                    </datalist>
+                    <label class="label">----- check rates -----</label>
+                    <input class="input" type="submit" value="Go">
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <span class="first_div_line col-xs-12 col-sm-12 col-md-12"></span>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="our_story col-xs-12 col-sm-10 col-md-6">
+                <img class="story_logo" src="img/W-Hotels-logo1.png" alt="logo" />
+                <h1>our story</h1>
+                <p>A truly singular, charming and often extravagant experience of the destination that leaves guests with unforgettable memories.</p>
+                <p>w hotels creates an once-in-a-lifetime experience for guests to celebrate a 'Memorable Moment. Start your day with a lovely breakfast with a fresh juice or coffee. The thINK Package includes 2 bikes with a special map that enables you to have an INK-redible biking experience.</p>
+                <p>Complementary is an INK Polaroid camera, to forever capture your 'Memorable Moments' and some exclusive sights of each city you visit.</p>
+                <img class="story_logo" src="img/W-Hotels-logo1.png" alt="logo" />
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <span class="div_line col-xs-12 col-sm-12 col-md-12"></span>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="section1">
+                <div class="sec col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/spa.jpg" alt="spa" />
+                        <p>Spa</p>
+                    </a>
+                </div>
+                <div class="sec  col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/tours.jpg" alt="tours" />
+                        <p>Tours</p>
+                    </a>
+                </div>
+                <div class="sec  col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/dining.jpg" alt="dining" />
+                        <p>dining</p>
+                    </a>
+                </div>
+                <div class="sec  col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/rooms.jpg" alt="rooms" />
+                        <p>Rooms</p>
+                    </a>
+                </div>
+                <div class="sec col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/events.jpg" alt="events" />
+                        <p>events</p>
+                    </a>
+                </div>
+                <div class="sec col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/facilities.jpg" alt="facilities" />
+                        <p>facilities</p>
+                    </a>
+                </div>
+                <div class="sec col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/bar.jpg" alt="bar" />
+                        <p>bar</p>
+                    </a>
+                </div>
+                <div class="sec col-xs-6 col-sm-3 col-md-3">
+                    <a href=""><img class="sec_img" src="img/gallery.jpg" alt="photos" />
+                        <p>gallery</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <span class="div_line col-xs-12 col-sm-12 col-md-12"></span>
+        </div>
+        <!-- /div row -->
+        <h2>an unforgettable getaways</h2>
+        <div class="row">
+            <div class="section2 col-xs-12 col-sm-12 col-md-12">
+                <div class="sec1">
+                    <p>_____ amsterdam _____</p>
+                    <p>Amsterdam is the capital of the Netherlands. With more than one million inhabitants in its urban area, it is the country's largest city and its financial, cultural, and creative centre.</p>
+                    <p>Amsterdam derives its name from the city's origin as "Dam" of river Amstel. In the past, the name was "Amstelredamme" which later changed as "Amsterdam". Amsterdam is one of the most popular destinations in Europe, attracting over 7 million international travellers annually.</p>
+                    <a class="sec1_link" href="">click here to learn more</a>
+                </div>
+                <div class="sec2">
+                    <img class="sec2_img" src="img/amsterdam.jpg" alt="amsterdam" />
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="section2 col-xs-12 col-sm-12 col-md-12">
+                <div class="sec1">
+                    <p>_____ barcelona _____</p>
+                    <p>Barcelona is the capital city of the autonomous community of Catalonia in the Kingdom of Spain, as well as the country's second most populous municipality, with a population of 1.6 million within city limits.</p>
+                    <p> Its urban area extends beyond the administrative city limits with a population of around 4.7 million people, being the sixth-most populous urban area in the European Union after Paris, London, Madrid, the Ruhr area and Milan.</p>
+                    <a class="sec1_link" href="">click here to learn more</a>
+                </div>
+                <div class="sec2">
+                    <img class="sec2_img" src="img/barcelona.jpg" alt="barcelona" />
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="section2 col-xs-12 col-sm-12 col-md-12">
+                <div class="sec1">
+                    <p>_____ new-york _____</p>
+                    <p>New York is a state in the northeastern United States, and is the 27th-most extensive, fourth-most populous, and seventh-most densely populated U.S. state.</p>
+                    <p>New York is bordered by New Jersey and Pennsylvania to the south and Connecticut, Massachusetts, and Vermont to the east. The state has a maritime border in the Atlantic Ocean with Rhode Island, east of Long Island.</p>
+                    <a class="sec1_link" href="">click here to learn more</a>
+                </div>
+                <div class="sec2">
+                    <img class="sec2_img" src="img/newyork.jpg" alt="new-york" />
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="section2 col-xs-12 col-sm-12 col-md-12">
+                <div class="sec1">
+                    <p>_____ rome _____</p>
+                    <p>Rome is a city and special comune (named Roma Capitale) in Italy. Rome is the capital of Italy and of the Lazio region.</p>
+                    <p>With 2.9 million residents in 1,285, it is also the country's largest and most populated comune and fourth-most populous city in the European Union by population within city limits. The Metropolitan City of Rome has a population of 4.3 million residents.</p>
+                    <a class="sec1_link" href="">click here to learn more</a>
+                </div>
+                <div class="sec2">
+                    <img class="sec2_img" src="img/rome.jpg" alt="rome" />
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="section2 col-xs-12 col-sm-12 col-md-12">
+                <div class="sec1">
+                    <p>_____ tel-aviv _____</p>
+                    <p>is a major city in Israel, located on the country's Mediterranean coastline. It is known to be the financial center and the technology hub of Israel, with a population of 432,892, making it Israel's second largest city.
+                    </p>
+                    <p>Tel Aviv is also a focal point in the high-tech concentration known as the "Silicon Wadi". Tel Aviv is governed by the Tel Aviv-Yafo Municipality, headed by Ron Huldai, and is home to many foreign embassies.</p>
+                    <a class="sec1_link" href="">click here to learn more</a>
+                </div>
+                <div class="sec2">
+                    <img class="sec2_img" src="img/telaviv.jpg" alt="tel aviv" />
+                </div>
+            </div>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <span class="div_line col-xs-12 col-sm-12 col-md-12"></span>
+        </div>
+        <!-- /div row -->
+        <div class="row">
+            <div class="video col-xs-12 col-sm-6 col-md-6">
+                <iframe class="w_vid" width="300" height="300" src="https://www.youtube.com/embed/P1sNrszsCw0" frameborder="0" allowfullscreen></iframe>
+                <p>Behind the Brand</p>
+            </div>
+            <div class="map col-xs-12 col-sm-6 col-md-6">
+                <iframe class="w_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11977.060095547742!2d2.1903244!3d41.3683264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59e80c780f7e2f0b!2sW+Barcelona!5e0!3m2!1siw!2sil!4v1482923718525" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p>we're here</p>
+            </div>
+        </div>
+        <!-- /div row -->
+    </div>
+    <!-- /div container-fluid" -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="main_footer col-xs-12 col-sm-12 col-md-12">
+                    <div class="footer_links">
+                        <a class="footer_link" href="">Home</a>|
+                        <a class="footer_link" href="">Rooms</a>|
+                        <a class="footer_link" href="">dining</a>|
+                        <a class="footer_link" href="">Tours</a>|
+                        <a class="footer_link" href="">Spa</a>|
+                        <a class="footer_link" href="">Contect</a>
+                    </div>
+                    <div class="footer_glyphicon">
+                        <p><span class="glyphicon glyphicon-earphone"><span class="phone">982-0020-010</span></span>
+                        </p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> zip code: 030059</p>
+                        <p><span class="glyphicon glyphicon-flag"></span> Barcelona, Placa Rosa dels Vents, Spain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+setTimeout(function(){
+    setPopUp();
+}, 3500);
+
+function setPopUp(){
+    var popUp = document.querySelector('.popup_back');
+    var fixedHeader = document.querySelector('.fixed_header');
+    fixedHeader.classList.add('undisplay');
+    popUp.classList.remove("undisplay");
+    popUp.parentNode.classList.add('hide_scroll');
+    document.querySelector('.popup_close').addEventListener('click', function(){
+        popUp.parentNode.classList.remove('hide_scroll');
+        fixedHeader.classList.remove('undisplay'); 
+        popUp.remove();       
+    })
+};
+</script>
 </body>
+
 </html>
