@@ -39,10 +39,6 @@
     border: none;
     font-size: 2rem;
 }
-.popup_footer:hover{
-    border: 1px solid #333;
-    font-weight: bold;
-}
 .popup_offer1, .popup_offer2, .popup_offer3{
     width: 90%;
     height: 20%;
